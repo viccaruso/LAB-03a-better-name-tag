@@ -1,0 +1,90 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 1fr 3fr 2fr;
+    text-align: center;
+}
+
+.nametag {
+    border: 1px solid black;
+    border-radius: 16px;
+    display: grid;
+    grid-template-rows: auto 2fr 1fr;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 3;
+}
+
+.hello-my-name-is {
+    background-color: red;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+.my-name {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: cursive;
+    font-style: bold;
+    font-size: 1.5em;
+}
+
+.empty-bottom {
+    background-color: red;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    border: 2px outset;
+    margin-bottom: 15px;
+}
+
+#color-button-pink {
+    background-color: pink;
+    font-weight: bold;
+    color: gray;
+
+}
+
+#color-button-green {
+    background-color: green;
+    font-weight: bold;
+    color: lightgray;
+}
+
+#color-button-yellow {
+    background-color: yellow;
+    font-weight: bold;
+    color: gray;
+
+}
+#color-button-magenta {
+    background-color: magenta;
+    font-weight: bold;
+    color: lightgray;
+
+}
+
+#color-button-blue {
+    background-color: blue;
+    font-weight: bold;
+    color: lightgray;
+}
